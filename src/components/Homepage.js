@@ -17,7 +17,7 @@ export default function Homepage() {
   // };
   return (
     <>
-      {/* <div className="hero-section1">
+      <div className="hero-section1">
         <center>
           <div className="hero-section">
             <div className="hero-text">
@@ -117,7 +117,7 @@ export default function Homepage() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       <Footer />
     </>
