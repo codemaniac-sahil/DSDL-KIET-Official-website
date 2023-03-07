@@ -1,37 +1,56 @@
 import React from "react";
-
+import "./css/Homepage.css";
 import { FaRProject } from "react-icons/fa";
 import { TfiCup } from "react-icons/tfi";
 import { CgScreen } from "react-icons/cg";
 import { GoTerminal } from "react-icons/go";
 import Footer from "./Footer";
+import Typed from "react-typed";
 export default function Homepage() {
+  // const defaultOptions = {
+  //   loop: true,
+  //   autoplay: true,
+  //   animationData: animationData,
+  //   rendererSettings: {
+  //     preserveAspectRatio: "xMidYMid slice",
+  //   },
+  // };
   return (
     <>
       <div className="hero-section1">
-        <div className="hero-section">
-          <div className="hero-text">
-            <div className="hero-text-heading">
-              <h1>Data Science and Deep Learning</h1>
-            </div>
-            <div className="hero-text-para">
-              <p>
-                The rapidly evolving, DSDL (data science and deep learning) a
-                technical club is composed mainly of Machine Learning with
-                assigned skill mentors.
-              </p>
-            </div>
-            <div className="hero-section-btn">
-              <button>Become a member</button>
+        <center>
+          <div className="hero-section">
+            <div className="hero-text">
+              <div className="hero-text-heading">
+                <Typed
+                  className="typed"
+                  strings={["Data Science and Deep Learning"]}
+                  typeSpeed={120}
+                  backSpeed={140}
+                  loop
+                />
+              </div>
+              <center>
+                <div className="hero-text-para">
+                  <p>
+                    The rapidly evolving, DSDL (data science and deep learning)
+                    a technical club is composed mainly of Machine Learning with
+                    assigned skill mentors.
+                  </p>
+                </div>
+              </center>
+              <div className="hero-section-btn">
+                <button>Become a member</button>
+              </div>
             </div>
           </div>
-        </div>
+        </center>
       </div>
       <div className="work-section1">
         <div className="work-section">
           <div className="work-section-text">
             <div className="work-section-text-heading">
-              <h1>What we do?</h1>
+              <h1 className="yash_">What we do?</h1>
               <p>
                 Data Science Deep Learning is an initiative to help students to
                 grow their knowledge on developer technologies and more through
@@ -99,17 +118,6 @@ export default function Homepage() {
           </div>
         </div>
       </div>
-      {/* <div className="social-links">
-        <Link to="https://www.linkedin.com/company/dsdl-club/" id="linkedin">
-          <BsLinkedin />
-        </Link>
-        <Link to="https://www.instagram.com/dsdl_club/" id="instagram">
-          <BsInstagram />
-        </Link>
-        <Link to="mailto:dsdl@gmail.com" id="gmail">
-          <SiGmail />
-        </Link>
-      </div> */}
 
       <Footer />
     </>
