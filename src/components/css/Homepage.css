@@ -16,7 +16,7 @@
     margin-top:1em ;
     white-space: nowrap;
     color: #d9e3ea;
-    margin-top: 10rem;
+    margin-top: 16rem;
   }
   .hero-text-para{
     font-size: 1.4em;
@@ -95,7 +95,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 1.3em;
+    gap: 3em;
     font-size: 1.1em;
     margin-right: 10em;
     
@@ -104,7 +104,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 4em;
-    
   }
   .img{
     font-size: 2.3em;
@@ -122,6 +121,9 @@
     }
 }
   @media screen and (max-width: 650px) {
+    .hero-text-heading{
+margin-top: 10rem;
+    }
     .typed{
         font-size: 2rem;
         font-weight: 600;
@@ -138,4 +140,34 @@
         font-size: 1.3rem;
         font-weight: 500;
     }
+}
+
+.project-text-heading{
+  color: #82f3d5;
+  font-size: larger;
+}
+.project-text-text{
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+.yash_{
+  white-space: nowrap;
+  color: #82f3d5 !important;
+}
+
+@media screen and (max-width: 900px) {
+  .work-section-text{
+display: flex;
+flex-direction: column;
+gap: 2rem;
+  }
+  .work-section-text-heading{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 418px) {
+  .project-text-heading{
+    font-size: 1rem;
+  }
 }

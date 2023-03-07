@@ -11,17 +11,7 @@ button{
 }
 
 
-.footer-section{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: black;
-  height: 10vh;
-  margin-top: 2px;
-}
-.footer-text p{
-  font-size: 1.5em;
-}
+
 .about-section{
   height: 90vh;
   width: 75%;
