@@ -9,43 +9,45 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/autoplay";
 import Footer from "./Footer";
-
+import "./css/About.css";
 function About() {
   return (
     <>
       <div className="about-section1">
-        <div className="about-section">
-          <div className="about-section-heading">
-            <h1>About Us</h1>
-          </div>
-          <div className="about-section-content">
-            <div className="about-section-text">
-              <p>
-                Welcome to DSDL, a squad dedicated to exploring the exciting
-                field of Data Science and Deep Learning. The club was
-                established in the year 2019, founded by Dr. Vineet Sharma [HoD
-                CSE dept.] and led by Mr. Abhi Rathi, former & first President,
-                and Mr. Amit Tripathi, former Vice President, with the goal of
-                providing a platform for students to learn, collaborate, and
-                experiment with cutting-edge technologies and techniques in this
-                rapidly growing field. Now, we are a team of 150 members from a
-                variety of domains, bringing diverse perspectives and skills to
-                the table. We are fortunate to have the support of Dr. Vineet
-                Sharma, who serves as the advisor for our club. He is a leading
-                expert in the field of data science & deep learning and brings a
-                wealth of knowledge and experience to our organization. His
-                guidance and support have been instrumental in helping us
-                achieve our goals and make a meaningful impact on the college
-                community.
-              </p>
+        <center>
+          <div className="about-section">
+            <div className="about-section-heading">
+              <h1 className="about">About Us</h1>
             </div>
-            {/* <div className="about-section-img">
+            <div className="about-section-content">
+              <div className="about-section-text">
+                <p>
+                  Welcome to DSDL, a squad dedicated to exploring the exciting
+                  field of Data Science and Deep Learning. The club was
+                  established in the year 2019, founded by Dr. Vineet Sharma
+                  [HoD CSE dept.] and led by Mr. Abhi Rathi, former & first
+                  President, and Mr. Amit Tripathi, former Vice President, with
+                  the goal of providing a platform for students to learn,
+                  collaborate, and experiment with cutting-edge technologies and
+                  techniques in this rapidly growing field. Now, we are a team
+                  of 150 members from a variety of domains, bringing diverse
+                  perspectives and skills to the table. We are fortunate to have
+                  the support of Dr. Vineet Sharma, who serves as the advisor
+                  for our club. He is a leading expert in the field of data
+                  science & deep learning and brings a wealth of knowledge and
+                  experience to our organization. His guidance and support have
+                  been instrumental in helping us achieve our goals and make a
+                  meaningful impact on the college community.
+                </p>
+              </div>
+              {/* <div className="about-section-img">
             <img src={require("../../src/assets/images/img123.png")} />
           </div> */}
+            </div>
           </div>
-        </div>
+        </center>
       </div>
-      <div className="domain-section">
+      {/* <div className="domain-section">
         <div className="inner-domain-section">
           <div className="domain-section-heading">
             <h1>Domains</h1>
@@ -158,8 +160,8 @@ function About() {
             </Swiper>
           </div>
         </div>
-      </div>
-      <Footer />
+      </div> */}
+      {/* <Footer /> */}
     </>
   );
 }
