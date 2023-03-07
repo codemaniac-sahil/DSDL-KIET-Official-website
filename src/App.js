@@ -13,15 +13,15 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        {/* <Routes>
+        <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/about" element={<About />} />
           <Route path="/team" element={<Teams />} />
           <Route path="/events" element={<Events />} />
           <Route path="/blogs" element={<Blogs />} />
 
-          <Route path="/contact" element={<Contact />} />
-        </Routes> */}
+          <Route path="/contact" element={<Contact />} /> */}
+        </Routes>
       </BrowserRouter>
     </>
   );
