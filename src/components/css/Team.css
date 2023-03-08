@@ -12,8 +12,14 @@
     flex-direction: column;
     gap: 1em;
     width: auto;
+    
     /* margin-top: 1em; */
     /* background-color: #0072b1; */
+  }
+  .team-card:hover{
+    /* background-color: #ed7676; */
+    transform: translateY(-10px);
+    cursor: pointer;
   }
   .team-card-image img{
     height: 250px;
@@ -46,11 +52,12 @@
     justify-content: space-evenly;
     gap: 2em;
     font-size: 1.4em;
-    
+    transition: all .38s ease;
   }
   .team-card-social-links a:hover{
-    color: rgb(242, 86, 169);
+    color: rgb(238, 117, 181);
     /* background-color: blue; */
+    transform: scale(1.2);
   }
   .team-card-social-links a{
     color: white;
