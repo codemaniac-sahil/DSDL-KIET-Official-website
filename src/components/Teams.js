@@ -3,26 +3,19 @@ import { BsLinkedin, BsInstagram, BsGithub } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
 import TeamCard from "./TeamCard";
-
+import "./css/Team.css";
 function Teams() {
   return (
     <>
       <div className="team-section">
         <div className="inner-team-section">
-          <div className="team-section-heading">
-            <h4>Our Team</h4>
-            <h1>Meet our team</h1>
-          </div>
+          <center>
+            <div className="team-section-heading">
+              {/* <h4 className="text">Our Team</h4> */}
+              <h1 className="text">Meet our team</h1>
+            </div>
+          </center>
           <div className="team-card-container">
-            <TeamCard
-              imgUrl="anubhav-yadav.JPG"
-              alt="anbhav-yadav"
-              name="Anubhav Yadav"
-              designation="Vice President"
-              linkedin_url="https://www.linkedin.com/in/anubhav-yadav-872a93205/"
-              instagram_url="https://www.instagram.com/anubhav_7071/"
-              github_url=""
-            />
             <TeamCard
               imgUrl="vedika-chauhan.jpg"
               alt="vedika-chauahan"
@@ -33,12 +26,22 @@ function Teams() {
               github_url=""
             />
             <TeamCard
+              imgUrl="anubhav-yadav.JPG"
+              alt="anbhav-yadav"
+              name="Anubhav Yadav"
+              designation="Vice President"
+              linkedin_url="https://www.linkedin.com/in/anubhav-yadav-872a93205/"
+              instagram_url="https://www.instagram.com/anubhav_7071/"
+              github_url=""
+            />
+
+            <TeamCard
               imgUrl="nandini-tyagi.jpg"
               alt="nandini tyagi"
               name="Nandini Tyagi"
               designation="ML Head"
               linkedin_url="hhttps://www.linkedin.com/in/nandini-tyagi-276a75213"
-              instagram_url=""
+              instagram_url="https://www.instagram.com"
               github_url=""
             />
             <TeamCard
@@ -89,7 +92,6 @@ function Teams() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
