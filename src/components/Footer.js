@@ -10,7 +10,7 @@ function Footer() {
         <p> Made with &nbsp;❤️&nbsp; By DSDL</p>
       </div>
       <div className="social-links footer-text">
-        <p>Ping us on</p>
+        <p className="ping">Ping us on</p>
         <Link to="https://www.linkedin.com/company/dsdl-club/" id="linkedin">
           <BsLinkedin />
         </Link>

@@ -18,10 +18,10 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
           <Route path="/team" element={<Teams />} />
-          {/* <Route path="/events" element={<Events />} />
+          <Route path="/events" element={<Events />} />
           <Route path="/blogs" element={<Blogs />} />
 
-          <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </BrowserRouter>

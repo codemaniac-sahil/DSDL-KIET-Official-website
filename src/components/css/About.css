@@ -8,6 +8,7 @@ font-weight: 600;
 
 .about-main{
     background-color: black;
+    margin-top: 2px;
 }
 .about-main2{
     padding-top: 8rem;
@@ -21,6 +22,7 @@ font-weight: 600;
 .about-text-2{
     display: flex;
     justify-content: space-evenly;
+
 }
 .text-about{
     width: 50%;
@@ -84,4 +86,10 @@ font-weight: 600;
         text-align: justify;
   text-justify: inter-word;
     }
+   }
+@media screen and (max-width: 510px) {
+    .text-about-2{
+z-index: 0;
+    }
+    
    }

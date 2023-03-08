@@ -46,6 +46,7 @@
    .yash{
  visibility: visible;
  margin-left: 3rem;
+ 
    }
   }
 .pure{
@@ -57,7 +58,7 @@
     height: 100%;
     border-right-width: 1px;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+    z-index: 90;
 }
 .unpure{
     position: fixed;
