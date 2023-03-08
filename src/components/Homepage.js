@@ -63,7 +63,7 @@ export default function Homepage() {
                 <div className="img">
                   <FaRProject />
                 </div>
-                <div className="text">
+                <div className="text2">
                   <div className="project-text-heading">
                     <h3>Projects</h3>
                   </div>
@@ -77,7 +77,7 @@ export default function Homepage() {
                 <div className="img">
                   <TfiCup />
                 </div>
-                <div className="text">
+                <div className="text2">
                   <div className="project-text-heading">
                     <h3>Hackathons</h3>
                   </div>
@@ -91,7 +91,7 @@ export default function Homepage() {
                 <div className="img">
                   <CgScreen />
                 </div>
-                <div className="text">
+                <div className="text2">
                   <div className="project-text-heading">
                     <h3>Webinars</h3>
                   </div>
@@ -105,7 +105,7 @@ export default function Homepage() {
                 <div className="img">
                   <GoTerminal />
                 </div>
-                <div className="text">
+                <div className="text2">
                   <div className="project-text-heading">
                     <h3>Bootcamps</h3>
                   </div>
