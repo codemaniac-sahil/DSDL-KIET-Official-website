@@ -16,6 +16,7 @@ function Contact() {
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           className="map-contact"
+          title="kiet-map"
         ></iframe>
 
         <div className="form-contact">

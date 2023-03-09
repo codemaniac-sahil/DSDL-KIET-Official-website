@@ -4,7 +4,7 @@ import { FaRProject } from "react-icons/fa";
 import { TfiCup } from "react-icons/tfi";
 import { CgScreen } from "react-icons/cg";
 import { GoTerminal } from "react-icons/go";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import Typed from "react-typed";
 export default function Homepage() {
   // const defaultOptions = {
