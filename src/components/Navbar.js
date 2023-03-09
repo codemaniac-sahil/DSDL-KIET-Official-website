@@ -34,6 +34,9 @@ function Navbar() {
             <NavLink to="/events">Events</NavLink>
           </li>
           <li>
+            <NavLink to="/blog">Blog</NavLink>
+          </li>
+          <li>
             <NavLink to="/team">Team</NavLink>
           </li>
           <li>
@@ -55,6 +58,11 @@ function Navbar() {
           <li>
             <NavLink to="/about" className="links_">
               About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/blog" className="links_">
+              Blog
             </NavLink>
           </li>
           <li>
