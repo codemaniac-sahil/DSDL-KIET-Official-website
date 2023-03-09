@@ -10,6 +10,7 @@ function Navbar() {
       console.log("yash varshney");
     };
   });
+  const menu = document.getElementById("menu");
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
@@ -45,38 +46,71 @@ function Navbar() {
         </ul>
         <div className="buttonDiv">
           <button className="join-btn">Join Us</button>
-          <i class="fa-solid fa-bars yash" id="menu" onclick={handleNav}></i>
+          <i
+            class={nav ? "fa-solid fa-xmark yash" : "fa-solid fa-bars yash"}
+            id="menu"
+            onclick={handleNav}
+          ></i>
         </div>
       </div>
       <div className={nav ? "pure" : "unpure"}>
         <ul className="resnav">
           <li>
-            <NavLink to="/" className="links_">
+            <NavLink
+              to="/"
+              className="links_"
+              // onClick={() => {
+              //   setNav(false);
+              //   menu.classList.toggle("fa-bars");
+              //   console.log("yash");
+              // }}
+              onClick={() => setNav(false)}
+            >
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink to="/about" className="links_">
+            <NavLink
+              to="/about"
+              className="links_"
+              onClick={() => setNav(false)}
+            >
               About
             </NavLink>
           </li>
           <li>
-            <NavLink to="/blog" className="links_">
+            <NavLink
+              to="/blog"
+              className="links_"
+              onClick={() => setNav(false)}
+            >
               Blog
             </NavLink>
           </li>
           <li>
-            <NavLink to="/events" className="links_">
+            <NavLink
+              to="/events"
+              className="links_"
+              onClick={() => setNav(false)}
+            >
               Events
             </NavLink>
           </li>
           <li>
-            <NavLink to="/team" className="links_">
+            <NavLink
+              to="/team"
+              className="links_"
+              onClick={() => setNav(false)}
+            >
               Team
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" className="links_">
+            <NavLink
+              to="/contact"
+              className="links_"
+              onClick={() => setNav(false)}
+            >
               Contact
             </NavLink>
           </li>
