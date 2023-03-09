@@ -21,7 +21,7 @@ function Blogs() {
             insights into AI & Machine Learning in sustainable development.
           </div>
           <div>
-            <a className="www.google.com">
+            <a className="" href="/">
               <div className="blog-button">Explore</div>
             </a>
           </div>
