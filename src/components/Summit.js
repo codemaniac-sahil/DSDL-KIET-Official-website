@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Carousel from "./Carousel";
+import CarouselSummit from "./CarouselSummit";
 import "./css/Summit.css";
 const Summit = () => {
   return (
@@ -7,7 +8,7 @@ const Summit = () => {
       <center>
         {" "}
         <div className="heading-summit">GAISA Summit</div>
-        <Carousel />
+        <CarouselSummit />
       </center>
     </div>
   );
