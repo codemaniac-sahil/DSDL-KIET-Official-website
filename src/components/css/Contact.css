@@ -35,9 +35,11 @@
 .form-contact{
     padding-left: 2rem;
     margin-left: 13rem;
+    margin-bottom: 100rem;
     width: 30%;
     height: 50vh;
     padding-top: 2rem;
+    /* padding-bottom: 5rem; */
     /* border: 2px solid red; */
 }
 .data-{
@@ -95,6 +97,7 @@ input[type="submit"] {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-bottom: 10rem;
     }
    .map-contact{
     width: 70%;
