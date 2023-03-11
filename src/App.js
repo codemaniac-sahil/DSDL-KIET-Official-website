@@ -8,6 +8,7 @@ import Homepage from "./components/Homepage";
 import Navbar from "./components/Navbar";
 import Teams from "./components/Teams";
 import Footer from "./components/Footer";
+import Summit from "./components/Summit";
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
 
           <Route path="/contact" element={<Contact />} />
+          <Route path="/summit" element={<Summit />} />
         </Routes>
         <Footer />
       </BrowserRouter>

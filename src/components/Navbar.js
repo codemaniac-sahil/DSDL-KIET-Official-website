@@ -69,6 +69,7 @@ function Navbar() {
               Home
             </NavLink>
           </li>
+
           <li>
             <NavLink
               to="/about"
