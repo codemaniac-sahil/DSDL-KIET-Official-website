@@ -1,7 +1,12 @@
 import React from "react";
+import IndividualIntervalsExample from "./IndividualIntervalsExample";
 // import "bootstrap";
 const CarouselSummit = () => {
-  return <div></div>;
+  return (
+    <div>
+      <IndividualIntervalsExample />
+    </div>
+  );
 };
 
 export default CarouselSummit;
