@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
-import Carousel from "./Carousel";
-import CarouselSummit from "./CarouselSummit";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper";
+
+// Import Swiper styles
+import "swiper/css";
 import "./css/Summit.css";
 const Summit = () => {
   return (
@@ -8,8 +11,35 @@ const Summit = () => {
       <center>
         {" "}
         <div className="heading-summit">GAISA Summit</div>
-        <CarouselSummit />
       </center>
+
+      <div className="corousel">
+        <Swiper
+          modules={[Autoplay]}
+          slidesPerView={1}
+          autoplay={true}
+          loop={true}
+        >
+          <SwiperSlide
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <img src={require("../assets/images/deep-learning.jpeg")} />
+          </SwiperSlide>
+          <SwiperSlide
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <img src={require("../assets/images/machine_learning.jpeg")} />
+          </SwiperSlide>
+        </Swiper>
+      </div>
     </div>
   );
 };

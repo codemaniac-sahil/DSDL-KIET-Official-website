@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/Blogs.css";
 import summit from "../assets/images/summit.png";
+import { NavLink } from "react-router-dom";
 function Blogs() {
   return (
     <div className="main-blog">
@@ -21,9 +22,9 @@ function Blogs() {
             insights into AI & Machine Learning in sustainable development.
           </div>
           <div>
-            <a className="" href="/summit">
+            <NavLink to="/summit">
               <div className="blog-button">Explore</div>
-            </a>
+            </NavLink>
           </div>
         </div>
       </div>
