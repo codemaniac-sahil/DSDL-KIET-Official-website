@@ -87,6 +87,33 @@ function Teams() {
               instagram_url="https://www.instagram.com/_asthagoel_/"
               github_url=""
             />
+            <TeamCard
+              imgUrl="amisha-singh.jpg"
+              alt="amisha Singh"
+              name="Amisha Singh"
+              designation="Coordinator"
+              linkedin_url="https://www.linkedin.com/in/amisha-s-a56329200"
+              instagram_url=""
+              github_url=""
+            />
+            <TeamCard
+              imgUrl="jalaj-sharma.jpeg"
+              alt="jalaj sharma"
+              name="Jalaj Sharma"
+              designation="IR Lead"
+              linkedin_url="https://www.linkedin.com/in/jalaj-sharma-5b1734211/"
+              instagram_url="https://www.instagram.com/jalaj777"
+              github_url=""
+            />
+            <TeamCard
+              imgUrl="parth.jpeg"
+              alt="parth-mishra"
+              name="Parth Mishra"
+              designation="ML Head"
+              linkedin_url="https://www.linkedin.com/in/parth-mishra-44343b221/"
+              instagram_url="https://www.instagram.com/jalaj777"
+              github_url="https://github.com/praxton74"
+            />
           </div>
         </div>
       </div>

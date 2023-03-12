@@ -10,12 +10,10 @@ function Navbar() {
       console.log("yash varshney");
     };
   });
-  const menu = document.getElementById("menu");
+  // const menu = document.getElementById("menu");
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
-    console.log("mavi");
-    console.log(nav);
     setNav(!nav);
   };
   return (
