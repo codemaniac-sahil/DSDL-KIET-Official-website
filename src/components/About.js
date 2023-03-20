@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/About.css";
 import Lottie from "lottie-react";
-import yash from "../assets/AI.json";
+import AI from "../assets/AI.json";
 import Carousel from "./Carousel";
 const About = () => {
   return (
@@ -33,7 +33,7 @@ const About = () => {
                 community.
               </div>
               <div className="text-about-2">
-                <Lottie loop={true} animationData={yash} />
+                <Lottie loop={true} animationData={AI} />
               </div>
             </div>
           </div>
