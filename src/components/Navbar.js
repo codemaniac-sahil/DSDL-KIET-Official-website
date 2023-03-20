@@ -10,7 +10,6 @@ function Navbar() {
       console.log("yash varshney");
     };
   });
-  // const menu = document.getElementById("menu");
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
@@ -57,11 +56,7 @@ function Navbar() {
             <NavLink
               to="/"
               className="links_"
-              // onClick={() => {
-              //   setNav(false);
-              //   menu.classList.toggle("fa-bars");
-              //   console.log("yash");
-              // }}
+             
               onClick={() => setNav(false)}
             >
               Home
